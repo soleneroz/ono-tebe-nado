@@ -266,6 +266,7 @@
   text-align: center;
   text-underline-position: under;
   font-size: 18px;
+  /* align-self: center; */
 }
 
 .footer__menu-list {
