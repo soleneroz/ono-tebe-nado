@@ -46,7 +46,7 @@
 }
 
 .cover {
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -66,7 +66,6 @@
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.15;
   color: #fff;
   font-family: 'Raleway';
   letter-spacing: 30px;
@@ -78,14 +77,17 @@
 
 .aligned-text {
   text-align: left;
+  line-height: 1.15;
 }
 
 .aligned-text_center {
   text-align: center;
+  line-height: 1.0;
 }
 
 .aligned-text_right {
   text-align: end;
+  line-height: 1.0;
 }
 
 .letter-spacing-extended {
@@ -186,21 +188,21 @@
 
 .card_type_film {
   height: 100%;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card_type_book {
   height: 100%;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card_type_picture {
   height: 100%;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
