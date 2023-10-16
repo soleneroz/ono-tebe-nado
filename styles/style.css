@@ -78,24 +78,23 @@
   flex-direction: column;
   gap: 20px;
   position: relative;
+  line-height: 1.15;
 }
 
 /* Привет! В коде ниже я решил оставить всё, как есть, но поменял html-разметку. Оставил всё, как есть, по причине, что у меня во всех трех стилях различается положение и lh. Если бы lh был бы одинаковый, я бы всё перенес в один класс и присвоил бы каждому элементу этот класс + дополнил бы классами по расположению. Спасибо. */
 
 .aligned-text {
   display: block;
-  line-height: 1.15;
 }
 
 .aligned-text_center {
   text-align: center;
-  line-height: 1.0;
-  max-width: 1280px;
+  line-height: 1;
 }
 
 .aligned-text_right {
   text-align: end;
-  line-height: 1.0;
+  line-height: 1;
 }
 
 .letter-spacing-extended {
