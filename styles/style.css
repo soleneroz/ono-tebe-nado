@@ -28,20 +28,25 @@
 
 .header__logo {
   width: 148px;
+  height: 105px;
   display: block;
   justify-self: center;
 }
 
 .header__logo-image {
   width: 100%;
+  height: 100%;
+}
+
+.address {
+  text-underline-position: under;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+  font-weight: 400;
 }
 
 .header__address {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.35;
-  text-underline-position: under;
   justify-self: end;
 }
 
@@ -74,6 +79,8 @@
   gap: 20px;
   position: relative;
 }
+
+/* Привет! В коде ниже я решил оставить всё, как есть, но поменял html-разметку. Оставил всё, как есть, по причине, что у меня во всех трех стилях различается положение и lh. Если бы lh был бы одинаковый, я бы всё перенес в один класс и присвоил бы каждому элементу этот класс + дополнил бы классами по расположению. Спасибо. */
 
 .aligned-text {
   text-align: left;
@@ -186,25 +193,22 @@
   position: relative;
 }
 
-.card_type_film {
+.card_type {
   height: 100%;
-  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  height: 100%;
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
-  height: 100%;
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .lots__look-more-link {
@@ -253,13 +257,6 @@
   display: flex;
   padding: 180px 50px 90px;
   justify-content: space-between;
-}
-
-.address {
-  text-underline-position: under;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.35;
 }
 
 .footer__menu {
