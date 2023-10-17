@@ -78,24 +78,20 @@
   flex-direction: column;
   gap: 20px;
   position: relative;
-  line-height: 1.15;
 }
 
 .aligned-text {
   display: block;
+  line-height: 1;
 }
-
-/* Привет! В коде ниже я выровнял заголовок паддингом. Долго сидел и это единственное, что мне пришло на ум. Подскажи, пожалуйста, как было бы правильнее? Спасибо */
 
 .aligned-text_center {
   text-align: center;
-  line-height: 1;
   padding-right: 30px;
 }
 
 .aligned-text_right {
   text-align: end;
-  line-height: 1;
 }
 
 .letter-spacing-extended {
@@ -278,7 +274,6 @@
   gap: 50px;
 }
 
-.footer__social-list-item {
+.footer__social-icon {
   width: 48px;
 }
-
