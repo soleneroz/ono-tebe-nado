@@ -78,6 +78,7 @@
   flex-direction: column;
   gap: 20px;
   position: relative;
+  line-height: 1.15;
 }
 
 .aligned-text {
