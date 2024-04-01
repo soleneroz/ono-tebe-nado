@@ -134,7 +134,7 @@
   text-align: center;
   border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
 }
 
 .lots {
